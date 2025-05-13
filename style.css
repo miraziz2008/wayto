@@ -1,0 +1,101 @@
+@import url('https://fonts.googleapis.com/css2?family=Darumadrop+One&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+* {
+    padding: 0;
+    margin: 0;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px ;
+    background-color: #D6FC52;
+}
+
+nav .btn1 {
+    width: 130px;
+    height: 32px;
+    border-radius: 10px;
+    background-color: #D6FC52;
+    transition: 1s;
+}
+
+.btn1:hover { 
+    background-color: red;
+}
+
+
+nav a {
+    text-decoration: none;
+    color: black;
+    margin-right: 20px;
+    font-size: 17px;
+    font-family: "Darumadrop One", serif;
+}
+
+nav .btn2 { 
+    border: none;
+    background-color: #D6FC52;
+    margin-right: 20px;
+}
+
+nav .btn3 { 
+    width: 100px;
+    height: 25px;
+    border-radius: 20px;
+    background-color: #000;
+    color: white;
+}
+
+header {
+    background-color: #D6FC52;
+    padding: 50px 0;
+}
+
+header h1 {
+    font-size: 107px;
+    line-height: 110px;
+    color: #000;
+    font-weight: 300;
+}
+
+header h3 {
+    font-size: 42px;
+    line-height: 48px;
+    color: #000;
+    font-weight: 200;
+}
+
+header button {
+    width: 761px;
+    height: 88px;
+    border-radius: 15px;
+    background-color: black;
+    color: #D6FC52;
+    font-size: 41px;
+    font-family: r;
+}
+
+header p {
+    font-size: 20px;
+    line-height: 28px;
+}
+
+main {
+    background-color: #D6FC52;
+}
+
+main .s1 {
+    padding: 50px ;
+}
+
+main h1 {
+    font-size: 101px;
+    font-weight: 300;
+}
+
+main h3 { 
+    font-size: 42px;
+    line-height: 48px;
+    font-weight: 200;
+}
